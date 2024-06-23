@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../shared/src/index.ts", "../src/index.ts"],
+  "sourcesContent": ["export function isObject(value: unknown): value is Record<string, unknown> {\n  return typeof value === \"object\" && value !== null;\n}\n", "// \u4E3A\u4EC0\u4E48\u80FD\u4F7F\u7528@vue/shared \uFF1F \u539F\u56E0\u662F\u5728tsconfig.json\u4E2D\u914D\u7F6E\u4E86paths\u548CbaseUrl\n// \u540C\u65F6\u5728@vue/reactivity\u6A21\u5757\u4E2D\u5B89\u88C5@vue/shared\u4F9D\u8D56\n// \u4F7F\u7528\u547D\u4EE4: pnpm i @vue/shared --workspace --filter @vue/reactivity\nimport { isObject } from \"@vue/shared\";\n\nconsole.log(isObject({ a: 1 }));\n"],
+  "mappings": ";;AAAO,WAAS,SAAS,OAAkD;AACzE,WAAO,OAAO,UAAU,YAAY,UAAU;AAAA,EAChD;;;ACGA,UAAQ,IAAI,SAAS,EAAE,GAAG,EAAE,CAAC,CAAC;",
+  "names": []
+}
