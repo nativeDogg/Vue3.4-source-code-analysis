@@ -1,0 +1,6 @@
+# 告诉pnpm所有项目都管理在packages中
+# 只要指定pnpm-workspace.yaml 就会变成monorepo
+# 如果要安装依赖到根目录 就需要 pnpm i vue -w 添加-w参数
+packages:
+  # 指定packages目录
+  - "packages/*"

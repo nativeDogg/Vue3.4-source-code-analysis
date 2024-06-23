@@ -1,0 +1,19 @@
+{
+  "name": "Vue3.4-source-code-analysis",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./scripts/dev.js reactivity -f esm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.21.5",
+    "minimist": "^1.2.8",
+    "typescript": "^5.5.2"
+  }
+}
